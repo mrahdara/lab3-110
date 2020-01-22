@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/lab3-110/lab3
+    working_directory: ~/lab3/code
     docker:
       - image: circleci/android:api-27
     environment:
